@@ -46,9 +46,9 @@ Refer to the original paper for a detailed description of the algorithm's steps 
 ## 📂 Project Structure  
 
 ```plaintext
-├── aoa.py                 # Main implementation of the AOA
-└── README.md              # Project documentation (this file)
-
+├── aoa.py                 # Main implementation of the AOA  
+└── README.md              # Project documentation (this file)  
+```
 ---
 
 ## 🛠️ Future Plans  
@@ -60,9 +60,12 @@ Refer to the original paper for a detailed description of the algorithm's steps 
 
 ## 🙌 Acknowledgments  
 
-This implementation is inspired by the original MATLAB code and the research conducted by Abualigah, L., Diabat, A., Mirjalili, S., Abd Elaziz, M., and Gandomi, A. H. The original paper can be accessed here: [Link to Paper](https://seyedalimirjalili.com/aoa).  
+This implementation is inspired by the original MATLAB code and the research conducted by:  
+Abualigah, L., Diabat, A., Mirjalili, S., Abd Elaziz, M., and Gandomi, A. H.  
 
-MATLAB code : https://github.com/laithabualigah/The-Arithmetic-Optimization-Algorithm-AOA
+The original paper can be accessed here: [The Arithmetic Optimization Algorithm (AOA)](https://seyedalimirjalili.com/aoa).  
+MATLAB code is available at: [AOA MATLAB Implementation](https://github.com/laithabualigah/The-Arithmetic-Optimization-Algorithm-AOA).  
+
 ---
 
 ## 📜 License  
@@ -81,4 +84,3 @@ Contributions are welcome! If you find a bug, have a suggestion, or want to impr
 
 For any questions or collaborations, feel free to reach out:  
 - GitHub: [Your GitHub Profile](https://github.com/yourusername)  
-```
