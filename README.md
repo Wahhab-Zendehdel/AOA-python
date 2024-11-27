@@ -1,10 +1,9 @@
-```markdown
 # Arithmetic Optimization Algorithm (AOA) - Python Implementation  
 
 This repository contains a Python implementation of the **Arithmetic Optimization Algorithm (AOA)**, inspired by the original MATLAB code and the research paper:  
 *"The Arithmetic Optimization Algorithm"* by Abualigah, L., Diabat, A., Mirjalili, S., Abd Elaziz, M., and Gandomi, A. H.  
 
-AOA is a metaheuristic optimization algorithm inspired by the basic arithmetic operations. It is designed to solve complex optimization problems efficiently.  
+AOA is a metaheuristic optimization algorithm inspired by basic arithmetic operations. It is designed to solve complex optimization problems efficiently.  
 
 ---
 
@@ -19,8 +18,10 @@ AOA is a metaheuristic optimization algorithm inspired by the basic arithmetic o
 ## 🚀 How to Use  
 
 1. **Clone the repository:**  
+   ```bash
    git clone https://github.com/yourusername/arithmetic-optimization-algorithm.git
    cd arithmetic-optimization-algorithm
+
 
 2. **Run:**
    python AOA.py
