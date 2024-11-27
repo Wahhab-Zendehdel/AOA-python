@@ -24,6 +24,7 @@ AOA is a metaheuristic optimization algorithm inspired by basic arithmetic opera
 
 
 2. **Run:**
+   ```bash
    python AOA.py
 
 ---
