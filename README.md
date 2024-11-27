@@ -1,5 +1,3 @@
-حتماً! در ادامه کد Markdown کامل و مرتب متن داده شده:  
-
 ```markdown
 # Arithmetic Optimization Algorithm (AOA) - Python Implementation  
 
