@@ -21,12 +21,11 @@ AOA is a metaheuristic optimization algorithm inspired by basic arithmetic opera
    ```bash
    git clone https://github.com/Wahhab-Zendehdel/AOA-python.git
    cd AOA-python
-
-
+   ```
 2. **Run:**
    ```bash
    python AOA.py
-
+   ```
 ---
 
 ## 📖 Algorithm Overview  
