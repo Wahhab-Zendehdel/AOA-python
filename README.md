@@ -19,8 +19,8 @@ AOA is a metaheuristic optimization algorithm inspired by basic arithmetic opera
 
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/yourusername/arithmetic-optimization-algorithm.git
-   cd arithmetic-optimization-algorithm
+   git clone https://github.com/Wahhab-Zendehdel/AOA-python.git
+   cd AOA-python
 
 
 2. **Run:**
