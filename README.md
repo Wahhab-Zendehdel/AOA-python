@@ -1,85 +1,34 @@
-# Arithmetic Optimization Algorithm (AOA) - Python Implementation  
+# AOA-QL: Adaptive Arithmetic Optimization Algorithm using Q-Learning
 
-This repository contains a Python implementation of the **Arithmetic Optimization Algorithm (AOA)**, inspired by the original MATLAB code and the research paper:  
-*"The Arithmetic Optimization Algorithm"* by Abualigah, L., Diabat, A., Mirjalili, S., Abd Elaziz, M., and Gandomi, A. H.  
+This repository contains the implementation of the AOA-QL algorithm, a novel hybrid metaheuristic algorithm that enhances the standard Arithmetic Optimization Algorithm (AOA) by integrating a Q-learning mechanism.
 
-AOA is a metaheuristic optimization algorithm inspired by basic arithmetic operations. It is designed to solve complex optimization problems efficiently.  
+## Objective
 
----
+The primary goal of AOA-QL is to replace the static, iteration-dependent control parameters of AOA with a dynamic, adaptive strategy that learns the most effective search behavior based on the state of the optimization process.
 
-## 🔧 Features  
-- Fully translated from MATLAB to Python.  
-- Easy-to-use structure for testing and integrating with other projects.  
-- Customizable for a wide range of optimization problems.  
-- Well-documented with example usage.  
+## How to Run
 
----
-
-## 🚀 How to Use  
-
-1. **Clone the repository:**  
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Wahhab-Zendehdel/AOA-python.git
-   cd AOA-python
+   git clone https://github.com/your-username/AOA-QL.git
+   cd AOA-QL
    ```
-2. **Run:**
+
+2. **Install the dependencies:**
    ```bash
-   python AOA.py
+   pip install -r requirements.txt
    ```
----
 
-## 📖 Algorithm Overview  
+3. **Run the main script:**
+   ```bash
+   python main.py
+   ```
 
-The Arithmetic Optimization Algorithm (AOA) simulates the process of addition, subtraction, multiplication, and division to achieve exploration and exploitation in the search space.  
+This will run both the standard AOA and the AOA-QL algorithms and display a plot comparing their convergence curves.
 
-### Main Parameters  
-- **Population Size:** Number of candidate solutions.  
-- **Iterations:** Maximum number of iterations.  
-- **Search Boundaries:** The range for the solution space.  
-- **Objective Function:** The function to minimize or maximize.  
+## Files
 
-Refer to the original paper for a detailed description of the algorithm's steps and mathematical formulation.  
-
----
-
-## 📂 Project Structure  
-
-```plaintext
-├── aoa.py                 # Main implementation of the AOA  
-└── README.md              # Project documentation (this file)  
-```
----
-
-## 🛠️ Future Plans  
-- Optimization and speed improvements.  
-- Integrating the algorithm with reinforcement learning (e.g., Q-learning).  
-- Adding support for constrained optimization problems.  
-
----
-
-## 🙌 Acknowledgments  
-
-This implementation is inspired by the original MATLAB code and the research conducted by:  
-Abualigah, L., Diabat, A., Mirjalili, S., Abd Elaziz, M., and Gandomi, A. H.  
-
-The original paper can be accessed here: [The Arithmetic Optimization Algorithm (AOA)](https://seyedalimirjalili.com/aoa).  
-MATLAB code is available at: [AOA MATLAB Implementation](https://github.com/laithabualigah/The-Arithmetic-Optimization-Algorithm-AOA).  
-
----
-
-## 📜 License  
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.  
-
----
-
-## 🤝 Contributing  
-
-Contributions are welcome! If you find a bug, have a suggestion, or want to improve the algorithm, feel free to open an issue or submit a pull request.  
-
----
-
-## 📬 Contact  
-
-For any questions or collaborations, feel free to reach out:  
-- GitHub: [Wahhab-Zendehdel](https://github.com/Wahhab-Zendehdel)  
+- `AOA.py`: The standard Arithmetic Optimization Algorithm.
+- `AOA_QL.py`: The adaptive AOA with Q-Learning.
+- `main.py`: The main script to run and compare the algorithms.
+- `requirements.txt`: The required Python packages.
