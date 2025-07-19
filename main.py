@@ -6,15 +6,15 @@ import matplotlib.pyplot as plt
 
 # Define the benchmark functions and their properties
 BENCHMARKS = {
-    "F01": {"func": benchmarks.F1, "LB": -100, "UB": 100, "Dim": 30},
-    "F02": {"func": benchmarks.F2, "LB": -10, "UB": 10, "Dim": 30},
-    "F03": {"func": benchmarks.F3, "LB": -100, "UB": 100, "Dim": 30},
-    "F04": {"func": benchmarks.F4, "LB": -100, "UB": 100, "Dim": 30},
-    "F05": {"func": benchmarks.F5, "LB": -30, "UB": 30, "Dim": 30},
-    "F06": {"func": benchmarks.F6, "LB": -100, "UB": 100, "Dim": 30},
-    "F07": {"func": benchmarks.F7, "LB": -1.28, "UB": 1.28, "Dim": 30},
-    "F08": {"func": benchmarks.F8, "LB": -5.12, "UB": 5.12, "Dim": 30},
-    "F09": {"func": benchmarks.F9, "LB": -32, "UB": 32, "Dim": 30},
+    "F1": {"func": benchmarks.F1, "LB": -100, "UB": 100, "Dim": 30},
+    "F2": {"func": benchmarks.F2, "LB": -10, "UB": 10, "Dim": 30},
+    "F3": {"func": benchmarks.F3, "LB": -100, "UB": 100, "Dim": 30},
+    "F4": {"func": benchmarks.F4, "LB": -100, "UB": 100, "Dim": 30},
+    "F5": {"func": benchmarks.F5, "LB": -30, "UB": 30, "Dim": 30},
+    "F6": {"func": benchmarks.F6, "LB": -100, "UB": 100, "Dim": 30},
+    "F7": {"func": benchmarks.F7, "LB": -1.28, "UB": 1.28, "Dim": 30},
+    "F8": {"func": benchmarks.F8, "LB": -5.12, "UB": 5.12, "Dim": 30},
+    "F9": {"func": benchmarks.F9, "LB": -32, "UB": 32, "Dim": 30},
     "F10": {"func": benchmarks.F10, "LB": -600, "UB": 600, "Dim": 30},
     "F11": {"func": benchmarks.F11, "LB": -10, "UB": 10, "Dim": 30},
     "F12": {"func": benchmarks.F12, "LB": -50, "UB": 50, "Dim": 30},
@@ -45,7 +45,7 @@ for name, props in BENCHMARKS.items():
     plt.title(f'Convergence Curve for {name}')
     plt.legend()
     plt.grid(True)
-    plt.savefig(f'images/convergence_curve_{name}.png')
+    plt.savefig(f'images/{name.replace("F", "F0") if len(name) == 2 else name}.png')
     plt.close()
 
 print("All benchmarks completed.")
